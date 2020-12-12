@@ -100,8 +100,8 @@ while not gameOver:
                 pelota.setheading(120)
                 angulo=120
             elif angulo>270:
-                pelota.setheading(270)
-                angulo = 270
+                pelota.setheading(240)
+                angulo = 240
             else:
                 pelota.setheading(angulo)
         else:
@@ -128,5 +128,3 @@ while not gameOver:
 
 
 #ventana.exitonclick()
-
-
